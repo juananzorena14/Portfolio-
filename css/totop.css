@@ -1,0 +1,84 @@
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.2
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+/* ESTILOS VIEJOS *//*
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:100%;
+	background:url(../img/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../img/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}*/
+
+/*ESTILOS NUEVOS*/
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	/*bottom:145px;
+*/  bottom:26px;
+	right:25px;
+	overflow:hidden;
+	background: url("../images/subir.png") no-repeat scroll 0 0 #343a40;
+	background-size: contain;
+	width:40px;
+	height:40px;
+	border:none;
+	border-radius: 50%;
+	text-indent:100%;
+	transition: background-color .15s ease-in-out;
+	-webkit-transition: background-color .15s ease-in-out;
+    -moz-transition: background-color .15s ease-in-out;
+    -o-transition: background-color .15s ease-in-out;
+    -ms-transition: background-color .15s ease-in-out;	
+}
+
+#toTop:hover {
+	/*text-indent: 0%;
+	height: 62px;*/
+	background-color: #23272b;
+
+}
+
+#toTopHover {
+	/*background: url("../images/subir.png") 0 0 no-repeat;*/
+	/*background: url("../images/subir.png") no-repeat scroll 0 0 #555;*/
+	/*width:42px;
+	height:42px;
+	display:block;
+	overflow:hidden;
+	float:left;*/
+	/*opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);*/
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}

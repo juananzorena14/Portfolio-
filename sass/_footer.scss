@@ -1,0 +1,133 @@
+#contact {
+	padding: 3.5rem 0;
+	background: url('../images/footer-bg.png') no-repeat scroll 0 0 transparent;
+	background-size: cover;
+
+	.title {
+		color: #fff;
+		margin-bottom: 3rem;
+
+		b {
+			font-weight: 500;
+		}
+	}
+
+	.contact-form {
+		label {
+			color: #000;
+		}
+
+		.form-control {
+			background-color: #dedede;
+			// border-radius: 1px;
+			border: 0;
+
+			&:focus {
+				box-shadow: 0 0 0 0.2rem rgba(230, 136, 125, .35);
+			}
+		}
+
+		.btn.disabled,
+		.btn:disabled {
+			opacity: .65;
+		    background-color: #999!important;
+		    border-color: #999!important;
+		}
+		// honeypot
+		#hmp {
+			display: none !important;
+		}
+	}
+
+	.help-block.with-errors {
+	    color: #de4040;
+	    font-size: 0.8rem;
+	    margin-top: 5px;
+	}
+
+	.req-fields {
+		color: #FFF;
+		font-size: 0.8rem;
+		text-shadow: 1px 1px 1px #222;
+	}
+
+	.btn-main {
+		color: #FFF;
+		text-transform: uppercase;
+		padding: .8rem 2rem;
+		border-radius: 0;
+		border-color: $coral;
+		background-color: $coral;
+		
+		&:hover {
+			color: #FFFFFF !important;
+			background: none;
+			border-color: $coral;
+		}
+	}
+
+	.btn-outline-primary.focus, .btn-outline-primary:focus {
+	    box-shadow: none;
+	}
+
+	.contact-info {
+		background-color: #FFF;
+		padding: 20px;
+
+		i {
+			font-size: 1.25rem;
+			margin-right: 5px;
+			color: $coral;
+		}
+
+		.ablock {
+			display: inline-table;
+
+			h2 {
+				font-family: 'Montserrat', sans-serif;
+				text-transform: uppercase;
+				color: #000;
+				font-size: 1.2rem;
+				font-weight: 600;
+			}
+
+			span {
+				font-weight: 500;
+				display: block;
+
+				a {
+					color: #555;
+					text-decoration: underline;
+
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+
+	.messages {
+		.alert {
+			margin-top: 20px;
+		}
+	}
+}
+
+.foo {
+	color: #fff;
+    font-size: 0.8rem;
+    padding: 1rem 0;
+    background-color: #000;
+
+    img {
+		width: 85px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	p {
+		display: inline-block;
+		margin-left: 15px;
+	}
+}

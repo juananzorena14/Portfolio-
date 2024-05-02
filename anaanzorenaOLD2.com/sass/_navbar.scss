@@ -1,0 +1,49 @@
+.navbar {
+	background: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	padding: .8rem 4rem;
+	transition: top 0.4s ease-in-out;
+
+	.navbar-brand {
+		width: 130px;
+		padding: 0;
+
+		img {
+			width: 100%;
+			display: block;
+		}
+	}
+
+	.navbar-nav {
+		.nav-link {
+	    	margin-left: 1.5rem;
+	    	text-transform: uppercase;
+	    	font-weight: 600;
+	    }	
+	}
+
+	.social-nav {
+
+		.nav-link {
+
+			i {
+				color: #AAAAAA;
+			}
+
+			&:hover {
+
+				i {
+					color: rgba(0,0,0,.6);
+				}
+			}
+		}
+	}
+
+	.fb-s {
+		margin-left: 50px;
+	}
+}
+
+.nav-up {
+    top: -100px;
+}

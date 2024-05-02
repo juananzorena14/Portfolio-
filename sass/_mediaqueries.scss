@@ -1,0 +1,459 @@
+@media only screen and (min-width:992px) {
+	.advice {
+		background-position: 80% top;
+	}
+}	
+
+
+@media only screen and (max-width:1199px) {
+	
+	.navbar {
+		padding: .8rem 2rem;
+		.navbar-nav .nav-link {
+			margin-left: 0.3rem;
+		}
+	}
+
+	.billboard {
+		.main-img img {
+			right: 0;
+		}
+	}	
+
+	.advice {
+		padding: 2rem 0;
+	}
+
+	#school {
+		h3 {
+			font-size: 1.5rem;
+		}
+	}	
+
+	#productions {
+		.title {
+			margin-top: 2rem;
+    		font-size: 3rem;
+    		margin-bottom: 1rem;	
+		}
+
+		a {
+			padding-top: 10px;
+		}
+	}
+}	
+
+@media only screen and (max-width:991.98px) {
+	.navbar {
+		padding: 0.5rem 1rem;
+
+		.navbar-brand {
+			img {
+				width: 60%;
+			}
+		}
+
+		.offcanvas-collapse {
+			top: 50px;
+
+			.nav-link {
+				color: #ffffff;
+				padding: .6rem 1rem;
+			}
+
+			.navbar-nav {
+				padding-top: 20px;
+
+				.social-nav {
+					position: absolute;
+					top: 270px;
+				}
+
+				.fb-s {
+					left: 15px;
+					margin-left: 0;
+				}
+
+				.ig-s {
+					left: 65px;
+				}
+
+				.tw-s {
+					left: 120px;
+				}
+			}
+		}
+	}
+}	
+
+@media only screen and (min-width: 768px) and (max-width:991.98px) {	
+
+	.billboard {
+		margin-top: 50px;
+
+		.slogan { 
+			h1 {
+				line-height: 4.25rem;
+			}	
+
+			br {
+				display: none;
+			}
+		}
+
+		img {
+			top: 65px;
+		}
+	}
+
+	#brides .gallery-block .item {
+	    max-height: 285px;
+	}
+	
+	#school,
+	.courses-contact {
+		.pr-50 {
+		    padding-right: 30px;
+		}
+
+		.pl-50 {
+		    padding-left: 30px;
+		}
+	}
+	
+	.courses-contact {
+		h5 {
+			font-size: .9rem;
+		}
+	}	
+
+	.advice {
+		padding: 2.5rem 0;
+
+		h2 {
+			margin-top: 5px;
+		}
+	}
+
+	#productions {
+		.title {
+			text-align: center;	
+		}
+
+		h5 {
+			text-align: center;
+		}
+
+		a {
+			text-align: center;
+			margin-bottom: 50px;
+		}
+	}
+
+	#testimonials {
+		.carousel {
+			height: 230px;
+			padding-left: 30px;
+			padding-right: 30px;
+
+			.carousel-control-next {
+				right: -60px;
+			}
+
+			.carousel-control-prev {
+				left: -55px
+			}
+		}
+	}
+
+	#contact {
+		.contact-info {
+			margin-top: 50px;
+		}
+	}	
+}	
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+
+	.billboard {
+		margin-top: 50px;
+		padding-bottom: 0;
+
+		.main-img {
+			text-align: center;
+			
+			img {
+				position: inherit;
+				width: 60%;
+			}
+		} 
+
+		.slogan h1 {
+			line-height: 4.25rem;
+		}
+	}	
+
+	.more-bpics {
+		h3 {
+			br {
+				display: block;
+			}
+		}	
+	}
+
+	.advice {
+		background-position: 390px 0;
+		background-size: auto;
+
+		h2 {
+			font-size: 3rem;
+			line-height: 60px;
+			margin-top: 10px;
+		}
+
+		.dtext {
+			width: 100%;
+		}
+	}
+
+	#school {
+		.title {
+			font-size: 3rem;
+		}
+
+		img {
+			max-height: none;
+		}
+
+		.pr-50 {
+		    padding-right: 15px;
+		}
+
+		.pl-50 {
+		    padding-left: 15px;
+		    padding-top: 50px;
+		}
+	}
+	
+	.courses-contact {
+		.contact-us-courses {
+			text-align: center;
+		}
+
+		.pl-50 {
+			padding-left: 15px;
+		}
+	}
+
+	#productions {
+		.title {
+			text-align: center;	
+		}
+
+		h5 {
+			text-align: center;
+		}
+
+		a {
+			text-align: center;
+			margin-bottom: 50px;
+		}
+	}
+
+	#testimonials {
+		.carousel {
+			height: 270px;
+		}
+	}
+
+	#contact {
+		.contact-info {
+			margin-top: 50px;
+		}
+	}
+}
+
+
+@media only screen and (max-width:575px) {
+	.billboard {
+		margin-top: 50px;
+		padding-bottom: 0;
+
+		.main-img {
+			text-align: center;
+			
+			img {
+				position: inherit;
+				width: 60%;
+			}
+		} 
+
+		.slogan {
+			margin-top: 35px;
+
+			h1 {
+				font-size: 2.5rem;
+				line-height: 3rem;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	#brides {
+		padding: 2rem 0 0 0;
+	}
+
+	.more-bpics {
+		h3 {
+			font-size: 1.15rem;
+
+			br {
+				display: block;
+			}
+		}	
+	}
+
+	.advice {
+		text-align: center;
+		background-image: none;
+		
+		h2 {
+			font-size: 2.5rem;
+			line-height: 50px;
+			margin-top: 0;
+		}
+
+		.dtext {
+			width: 100%;
+		}
+	}
+
+	#school {
+		padding: 2rem 0;
+
+		.title {
+			font-size: 2.5rem;
+			line-height: 50px;
+			margin-bottom: 0;
+		}
+
+		img {
+			max-height: none;
+		}
+
+		.pr-50 {
+		    padding-right: 15px;
+		}
+
+		.pl-50 {
+		    padding-left: 15px;
+		    padding-top: 50px;
+		}
+	}
+
+	.courses-contact {
+		.contact-us-courses {
+			text-align: center;
+		}
+
+		.pl-50 {
+			padding-left: 15px;
+		}
+	}
+
+	.paym {
+		padding: 2rem 0;
+
+		.paymethod {
+			h4 {
+				font-size: 1.2rem;
+			}
+		}
+	}
+
+	#celebrities {
+		.title {
+			font-size: 2.5rem;
+		}	
+
+		.diamante-ico {
+			width: 25px;
+			height: 25px;
+			margin-right: 10px;
+		}
+
+		.bri-ico {
+			width: 25px;
+			height: 25px;
+			margin-left: 10px;
+		}
+	}
+
+	#productions {
+		text-align: center;
+		.title {
+			font-size: 2.5rem;
+			line-height: 50px;
+		}
+
+		a {
+			font-size: 1rem;
+			padding-bottom: 40px;
+		}
+	}
+
+	#testimonials {
+		padding-top: 2rem;
+		.title {
+			font-size: 2.5rem;
+			line-height: 50px;
+			margin-bottom: 0;
+		}
+
+		.carousel {
+			height: 350px;
+		}
+	}
+
+	#contact {
+		padding: 2rem 0;
+
+		.title {
+			font-size: 2.5rem;
+			line-height: 50px;
+			margin-bottom: 2rem;
+		}
+
+		.btn-main {
+			margin-top: 20px;
+		}
+
+		.contact-info {
+			margin-top: 30px;
+		}
+	}
+
+	.foo {
+		img {
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width:359px) {
+	h2.title {
+		font-size: 2.3rem;
+		line-height: 40px !important;
+	}
+
+	.advice {
+		h2 {
+			font-size: 2.3rem;
+		}
+	}
+	#testimonials {
+		.carousel {
+			height: 385px;
+		}
+	}
+}	

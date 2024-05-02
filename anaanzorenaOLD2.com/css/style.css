@@ -1,0 +1,365 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #333;
+	text-align: left;
+	background-color: #fff;
+
+	overflow: auto;
+}
+
+/* helpers */
+.mr-20 {
+	margin-right: 20px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.tac { 
+	text-align: center; 
+}
+
+.pt4 {
+	padding-top: 4px;
+}
+
+/* /helpers */
+
+.navbar {
+	padding: .5rem 4rem;
+}
+
+.navbar .navbar-brand {
+	width: 130px;
+}
+
+.navbar .navbar-brand img {
+	width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 2rem;
+}
+
+.billboard {
+	margin-top: 100px;
+}
+
+.billboard .slogan {
+	margin-top: 65px;
+}
+
+.billboard .slogan h1 {
+	font-size: 3.5rem;
+	line-height: 4.8rem;
+	font-weight: 300;
+}
+
+.billboard .slogan h1 b {
+	font-weight: 500;
+}
+
+.billboard .call-to-action {
+	margin-top: 60px;
+}
+
+.col-4-custom {
+	width: 33%;
+}
+
+.billboard img {
+	/*max-width: 100%;*/
+	max-width: 120%;
+    /*margin-left: -100px;*/
+    margin-top: -15px;
+}
+
+.btn-lightBlue {
+	background: rgba(55, 125, 255, 0.1);
+	border-color: transparent;
+}
+/*listo*/
+
+#brides {
+	background: rgba(55, 125, 255, 0.1);
+	padding: 5rem 0 2rem 0;
+}
+
+h2.title {
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+    font-weight: 100;
+}
+
+h5 {
+	color: #222;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+}
+.gallery-block {
+	padding-bottom: 0;
+}
+
+
+.gallery-block .item {
+	max-height: 300px;
+}
+
+.found_fb {
+	background: rgba(55, 125, 255, 0.1);
+	text-align: center;
+	padding: 2rem 0 5rem 0;
+}
+
+.found_fb h3 {
+	font-size: 2.5rem;
+	font-weight: 100;
+}
+
+.found_fb h2 b,
+.paym b {
+	font-weight: 500;
+}
+
+.found_fb p {
+	margin: 1.2rem 0 2rem 0;
+}
+
+/*.found_fb .bg-filled {
+	background: rgba(55, 125, 255, 0.1);
+}*/
+
+.section-padding {
+	padding: 5rem 0;
+}
+
+#school .title {
+	padding-bottom: 2rem;
+}
+
+.cont-tag {
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #EAF2FF;
+}
+
+.cont-tag .tag {
+	font-size: 1.5rem;
+    left: 0px;
+    line-height: 23px;
+    position: absolute;
+    text-align: left;
+    top: 85%;
+}
+
+.cont-tag .tag-right {
+	text-align: right;
+	right: 0;
+}
+
+.cont-tag .tag span {
+	color: #007bff;
+	background-color: #EAF2FF;
+    padding: 8px 16px;
+}
+
+.automaquillaje img,
+.maquillaje-pro img {
+	width: 100%;
+	max-height: 369px;
+	transition: 0.8s ease;
+}
+
+.automaquillaje img:hover,
+.maquillaje-pro img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+ }   
+
+.content-txt p {
+    text-align: left;
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+#school ul {
+	text-align: left;
+	margin-top: 40px;
+	list-style: none;
+	position: relative;
+}
+
+#school ul li {
+	margin-bottom: 30px;
+	color: #666;
+	line-height: 26px;
+}
+
+#school ul li b {
+	font-weight: 600;
+}
+
+#school ul i.material-icons {
+    position: absolute;
+    left: 5px;
+}
+
+#school ul i.material-icons.lightBlue600 { 
+	color: #007bff; 
+	/*color: #377dff;*/
+	padding: 3px;
+    border-radius: 50%;
+    background-color: #EAF2FF;
+}
+
+#school .contact-us-courses {
+    margin-bottom: 25px;
+    margin-top: 4rem;
+    text-align: left;
+}
+
+#school .contact-us-courses h5 {
+    line-height: 26px;
+    margin-bottom: 1.25rem;
+}
+
+.paym {
+	padding: 5rem 0;
+	background-color: #EAF2FF;
+}
+
+#celebrities {
+	background: #F5F5F5;
+}
+
+#celebrities h2 .material-icons {
+	margin: 0 2rem;
+}
+
+.carousel {
+	padding-top: 40px;
+}
+
+.carousel .carousel-indicators {
+    bottom: -50px;
+}
+
+/*.carousel .carousel-indicators li {
+	background-color: #333;
+}*/
+
+
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #e2e2e2;
+	border-color: transparent;
+	box-sizing: border-box;
+	border-bottom: 0;
+}
+.carousel-indicators li.active {
+	border: none;
+	background: #888;		
+}
+
+
+/*Icons*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+/* Contact form*/
+
+.contact-form label {
+	color: #999999;
+}
+
+.contact-form .form-control {
+	font-size: 0.9rem;
+}
+
+.contact-form .help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+
+.req-fields {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Contact Info */
+.contact-info {
+	color: #999999;
+}
+
+.contact-info i {
+	font-size: 1.25rem;
+	margin-right: 10px;
+	color: #ffffff;
+}
+
+.contact-info .ablock {
+	display: inline-grid;
+}
+
+.contact-info .ablock span {
+	display: block;
+}
+
+.block-info {
+	margin-bottom: 20px;
+}
+
+.block-info span a {
+	color: #999999;
+	text-decoration: underline;
+}
+
+.block-info span a:hover {
+	text-decoration: none;
+}
+
+
+footer {
+	background-color: #000000;
+	padding-bottom: 0 !important;
+}
+
+footer .title {
+	color: #FFFFFF;
+	margin-bottom: 60px;
+}
+
+.foo {
+	color: #999999;
+	font-size: 0.8rem;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid #999999;
+}
+
+.foo img {
+	width: 120px;
+}
+
+.foo p {
+	margin-top: 10px;
+}
